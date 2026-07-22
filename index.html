@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GuideMe — Coding Tutoring with Elya</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Calendly stylesheet -->
+  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+</head>
+<body class="bg-white text-gray-900 font-sans">
+
+  <!-- SECTION 1: Hero -->
+  <section id="hero" class="min-h-screen flex flex-col items-center justify-center px-6 py-16 text-center bg-slate-900 text-white">
+    <h1 class="text-4xl md:text-6xl font-bold mb-4 leading-tight">Get unstuck in code.</h1>
+    <p class="text-lg md:text-xl text-slate-300 mb-10 max-w-xl">
+      1-on-1 tutoring with a CS grad &amp; AWS engineer.<br>Real understanding, not just the answer.
+    </p>
+    <a href="#booking" class="bg-blue-500 hover:bg-blue-600 text-white font-semibold text-xl px-10 py-4 rounded-full transition">
+      Book a Free Intro Call ↓
+    </a>
+    <img src="assets/meBrock.jpg" class="mt-10 w-32 h-32 rounded-full object-cover border-4 border-slate-700" alt="Elya">
+  </section>
+
+  <!-- SECTION 2: Booking -->
+  <section id="booking" class="py-16 px-6 bg-white">
+    <h2 class="text-3xl font-bold text-center mb-4">Book a Session</h2>
+    <p class="text-center text-gray-500 mb-10">Online via Google Meet · Pay after · Interac or PayPal</p>
+
+    <div class="max-w-2xl mx-auto space-y-4 mb-10">
+      <div class="border rounded-xl p-6">
+        <p class="font-semibold text-lg">Free Intro Call · 15 min</p>
+        <p class="text-gray-600 mt-1">No commitment. We talk about what you're stuck on and check if we're a good fit.</p>
+      </div>
+      <div class="border rounded-xl p-6">
+        <p class="font-semibold text-lg">Tutoring Session · 1 or 2 hours</p>
+        <p class="text-gray-600 mt-1">Deep focus on one topic, concept, or assignment. I guide you to the answer — you leave understanding it.</p>
+        <p class="text-blue-600 font-medium mt-2">$15 / 1 hr &nbsp;·&nbsp; $25 / 2 hr</p>
+      </div>
+    </div>
+
+    <!-- Calendly inline embed -->
+    <div class="calendly-inline-widget" data-url="https://calendly.com/elyadenysova/new-meeting" style="min-width:320px;height:700px;"></div>
+    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+  </section>
+
+  <!-- SECTION 3: Why Me -->
+  <section id="about" class="py-16 px-6 bg-slate-50">
+    <h2 class="text-3xl font-bold text-center mb-12">Why learn with me?</h2>
+    <div class="max-w-2xl mx-auto space-y-6">
+
+      <div class="flex items-start gap-4">
+        <span class="text-3xl">🏆</span>
+        <div>
+          <p class="font-semibold">Distinguished Student Award</p>
+          <p class="text-gray-600">Highest GPA in CS graduating class, Brock University.</p>
+        </div>
+      </div>
+
+      <div class="flex items-start gap-4">
+        <span class="text-3xl">☁️</span>
+        <div>
+          <p class="font-semibold">Software Dev Engineer, Amazon Web Services (2024–2025)</p>
+          <p class="text-gray-600">Shipped backend APIs and production systems for enterprise customers.</p>
+        </div>
+      </div>
+
+      <div class="flex items-start gap-4">
+        <span class="text-3xl">👩‍🏫</span>
+        <div>
+          <p class="font-semibold">Lab Demonstrator, Brock University</p>
+          <p class="text-gray-600">Taught HTML, CSS, JS, PHP, SQL, and Python.
+            <a href="https://padlet.com/elyadenysova/feedback-vqjt3srgiii0fphm" class="text-blue-600 underline">See student feedback →</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="flex items-start gap-4">
+        <span class="text-3xl">🥷</span>
+        <div>
+          <p class="font-semibold">Instructor, Code Ninjas</p>
+          <p class="text-gray-600">Taught game dev and coding to kids ages 5–14.</p>
+          <div class="flex gap-3 mt-3">
+            <img src="assets/cnDrawing.JPG" class="w-24 h-24 rounded-lg object-cover" alt="Code Ninjas">
+            <img src="assets/meWorkCn.JPG" class="w-24 h-24 rounded-lg object-cover" alt="Teaching at Code Ninjas">
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SECTION 4: What I Teach -->
+  <section id="subjects" class="py-16 px-6 bg-white">
+    <h2 class="text-3xl font-bold text-center mb-10">What I teach</h2>
+    <div class="max-w-2xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-8">
+
+      <div>
+        <h3 class="font-semibold text-lg mb-3 text-blue-600">University</h3>
+        <ul class="space-y-2 text-gray-700">
+          <li>Python · Java · Data Structures & Algorithms</li>
+          <li>Web Development (HTML, CSS, JavaScript)</li>
+          <li>Technical Interview Prep (LeetCode)</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="font-semibold text-lg mb-3 text-blue-600">High School</h3>
+        <ul class="space-y-2 text-gray-700">
+          <li>ICS3U / ICS4U (Ontario)</li>
+          <li>Functions / Advanced Functions</li>
+          <li>Intro to programming (Scratch, Python)</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SECTION 5: Footer -->
+  <footer class="py-10 px-6 bg-slate-900 text-slate-400 text-center pb-24">
+    <p class="mb-4">
+      <a href="mailto:elyadenysova@gmail.com" class="hover:text-white">elyadenysova@gmail.com</a>
+      &nbsp;·&nbsp;
+      <a href="https://www.linkedin.com/in/elyadenysova/" class="hover:text-white">LinkedIn</a>
+      &nbsp;·&nbsp;
+      <a href="https://ed18xy.github.io/elyadnsv/" class="hover:text-white">Portfolio</a>
+    </p>
+    <p class="text-sm">© 2026 GuideMe · Yelyzaveta Denysova</p>
+  </footer>
+
+  <!-- STICKY BUTTON: always visible on mobile -->
+  <div class="fixed bottom-0 left-0 right-0 z-50 px-4 py-3 bg-white border-t border-gray-200 md:hidden">
+    <a href="#booking"
+       class="block w-full bg-blue-500 hover:bg-blue-600 text-white text-center font-semibold text-lg py-4 rounded-full transition">
+      Book a Session
+    </a>
+  </div>
+
+</body>
+</html>
